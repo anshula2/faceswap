@@ -18,7 +18,7 @@ from tests.utils import generate_test_data, to_categorical
 
 def get_test_data():
     """ Obtain randomized test data for training """
-    np.random.seed(1337)
+#    np.random.seed(1337)
     (x_train, y_train), _ = generate_test_data(num_train=1000,
                                                num_test=200,
                                                input_shape=(10,),
